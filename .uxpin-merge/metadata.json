@@ -1,0 +1,5488 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<Button\n    stretched={true}\n    type=\"error\"\n    mode=\"filled\"\n    icon={<Icon size=\"s\" icon=\"TickerSvg\" />}\n    size=\"s\"\n    >Merge!</Button>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/Button",
+            "documentation": {
+              "path": "src/Button/Button.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/Button/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "button4038267449": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Merge!",
+                    "icon": "<Icon size=\"s\" icon=\"TickerSvg\" />",
+                    "isDisabled": true,
+                    "mode": "filled",
+                    "size": "m",
+                    "stretched": true,
+                    "type": "error"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "button4038267449"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "primary"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "primary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "secondary"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "filled"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "mode",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "filled"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ghost"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "minimal"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "flat"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "title",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "background",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "m"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xs"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "s"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "m"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "l"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xl"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xxl"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xxxl"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "stretched",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "left"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "iconDirection",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "left"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "right"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<Icon size=\"l\" icon=\"PinMapSolidSvg\"/>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/Icon",
+            "documentation": {
+              "path": "src/Icon/Icon.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Icon/Icon.js"
+            },
+            "presets": [
+              {
+                "path": "src/Icon/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "Icon",
+          "presets": [
+            {
+              "elements": {
+                "icon282275244": {
+                  "name": "Icon",
+                  "props": {
+                    "icon": "PinMapSolidSvg",
+                    "size": "l"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "icon282275244"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xxs"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xs"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "s"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "m"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "l"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xl"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xxl"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xxxl"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionAddToFavoritesSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionArchiveSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionArrangeLeftSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionArrangeRightSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionArrangeVerticalCenterSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionBreakSymbolSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionChangeProjectGroupSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionCloneSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionCloseSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionDetachingHandlerSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionDisableSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionDistributeVerticallySvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionDuplicateSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionElementAlignCenterSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionElementAlignSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionElementFlipSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionEnableSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionExitSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionFullScreenSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionInsertDataSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionLogOutSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMoveBehindSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMoveBySvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMoveForwardSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMoveToBackSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMoveToFrontSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMoveToSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMultipropertyLockSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMultipropertyUnlockBordersSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionMultipropertyUnlockCornersSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionNextStateSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionPathBreakSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionPathDefaultSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionPathDifferenceSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionPathIntersectSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionPathSubtractSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionPathUnionSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionPreviousStateSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionRemoveFromGroupSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionSetContentSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionSwitchSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionSymbolSyncSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ActionUnarchiveSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "AdjustSettingsSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "AdvancedAnimationSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "AngleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowAxisSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowEnterSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowGoBackSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowPlaySvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowRedoSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowRepeatSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowReplaceSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowRetrieveSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowRotateSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowShowSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowSizeSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowThinSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowUndoSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ArrowSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandAppleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandGoogleSimpleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandGoogleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandSketchSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandSlackSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandTwitterSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandTypekitSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandUxpinSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BrandWindowsSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "BuildingSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "CalendarSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ChangelogSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ChevronSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ClockSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "CodeBlockSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "CodeInlineSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ColorDropSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ColorsDropperSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ColorsSchemesSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ColorsSwatchesSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ConnectionConnectedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ConnectionDisconnectedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "CursorCrosshairSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "CursorDefaultSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "CursorPointerSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "DesktopAppSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "DotsSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsBoxSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsButtonSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsCheckboxSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsCircleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsCodeComponentSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsElementSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsGenericSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsGroupingSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsHotspotSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsIconSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsImageSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsInputSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsMultiSelectSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsMultistatesEditSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsMultistatesSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsPathSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsRadioSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsSelectListSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsSliceSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsSymbolSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsTableSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsTextBlockSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsTextElementSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsTextareaSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsUngroupingSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ElementsVideoSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointEmptyCircleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointEmptyRectangleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointEmptyRhombSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointEmptyTriangleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointFilledArrowSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointFilledCircleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointFilledRectangleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointFilledRhombSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointFilledTriangleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointLineSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointMirroredTriangleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointNoneSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "EndpointOpenedTriangleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ExternalLinkSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureAnimationsSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureApprovalSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureChatSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureCommentsSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureDocumentationSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureGridSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureIterationSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureLayersSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureLivePresentationSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureMobileSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureResponsiveSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureSitemapSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FeatureUsabilityTestingSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FilesDownloadCloudSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FilesUploadSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FolderClosedOutlineSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FolderClosedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "FolderOpenedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "GearSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "HeartSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "InfoSimpleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "InfoWarningSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LaptopSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LayoutListSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LayoutMediumTileSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LayoutSmallTileSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LibrariesDesignLibrariesSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LibrariesMoreSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LibrariesSimpleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LinkChainBreakSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "LinkChainSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ListIndentationAddSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ListIndentationRemoveSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ListOrderedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ListUnorderedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "MailSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "MaskSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "MinusOutlineSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "OpacitySvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "OptionsViewSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PadlockBrokenSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PadlockLockedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PadlockUnlockedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PenToolSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PencilSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PiggyBankSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PinMapSolidSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PinMapSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PinSimpleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PluginsSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PlusOutlineSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "PlusSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "QuestionMarkSolidSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "QuestionMarkSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ScrollToSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "SearchSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShapeDiamondSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShapeRhombusSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShapeStarSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShapeTriangleRightAngledSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShapeTriangleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShareClosedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShareOpenedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ShoppingCartSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "SoundMuteSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "SoundUnmuteSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StateBaseSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StatusApprovedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StatusPausedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StatusProgressSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StatusRejectedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StatusWaitingSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokeEndButtSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokeEndRoundSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokeEndSquareSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokeJoinBevelSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokeJoinMiterSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokeJoinRoundSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokePointAsymmetricSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokePointDisconnectedSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokePointMirroredSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "StrokePointStraightSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ThunderSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TickerSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ToggleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TooltipLeftSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TooltipTopSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TrashSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TypographyAlignCenterSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TypographyAlignJustifySvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TypographyAlignLeftSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TypographyCustomFontSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TypographyFontSizeSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TypographyLetterSpacingSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "TypographyLineHeightSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "UserAddSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "UserSimpleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "VariableSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "VisibilityOutlineHiddenSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "VisibilityOutlineVisibleSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "VisibilitySolidHiddenSvg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "VisibilitySolidVisibleSvg"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<Table\n    width=\"stretched\"\n    data={{\n        \"header\": [\"band\", \"singer\", \"rhythm guitar\", \"lead guitar\", \"bass\", \"drums\", \"keyboard\"],\n        \"body\": [\n            {\n                \"band\": \"metallica\",\n                \"singer\": \"james hatfield\",\n                \"rhythm guitar\": \"james hatfield\",\n                \"lead guitar\": \"kirk hammet\",\n                \"bass\": \"robert trujillo\",\n                \"drums\": \"lars ulrich\"\n            },\n            {\n                \"band\": \"slayer\",\n                \"singer\": \"tom araya\",\n                \"rhythm guitar\": \"kerry king\",\n                \"lead guitar\": \"gary holt\",\n                \"bass\": \"tom araya\",\n                \"drums\": \"paul bostaph\"\n            },\n            {\n                \"band\": \"black sabbath\",\n                \"singer\": \"ozzy osbourne\",\n                \"lead guitar\": \"tommy iommi\",\n                \"bass\": \"geezer butler\",\n                \"drums\": \"bill ward\"\n            },\n            {\n                \"band\": \"queen\",\n                \"singer\": \"freddy mercury\",\n                \"lead guitar\": \"brian may\",\n                \"bass\": \"john deacon\",\n                \"drums\": \"roger taylor\",\n                \"keyboard\": \"freddy mercury\"\n            },\n            {\n                \"band\": \"led zeppelin\",\n                \"singer\": \"robert plant\",\n                \"lead guitar\": \"jimmy page\",\n                \"bass\": \"john paul johns\",\n                \"drums\": \"bonzo bonham\",\n                \"keyboard\": \"john paul johns\"\n            },\n            {\n                \"band\": \"deep purple\",\n                \"singer\": \"ian gillan\",\n                \"lead guitar\": \"ritchie blackmore\",\n                \"bass\": \"roger glover\",\n                \"drums\": \"ian paice\",\n                \"keyboard\": \"jon lord\"\n            },\n        ]\n    }}\n/>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/Table",
+            "documentation": {
+              "path": "src/Table/Table.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Table/Table.js"
+            },
+            "presets": [
+              {
+                "path": "src/Table/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "Table",
+          "presets": [
+            {
+              "elements": {
+                "table3829867146": {
+                  "name": "Table",
+                  "props": {
+                    "data": {
+                      "body": [
+                        {
+                          "band": "metallica",
+                          "bass": "robert trujillo",
+                          "drums": "lars ulrich",
+                          "lead guitar": "kirk hammet",
+                          "rhythm guitar": "james hetfield",
+                          "singer": "james hetfield"
+                        },
+                        {
+                          "band": "slayer",
+                          "bass": "tom araya",
+                          "drums": "paul bostaph",
+                          "lead guitar": "gary holt",
+                          "rhythm guitar": "kerry king",
+                          "singer": "tom araya"
+                        },
+                        {
+                          "band": "black sabbath",
+                          "bass": "geezer butler",
+                          "drums": "bill ward",
+                          "lead guitar": "tommy iommi",
+                          "singer": "ozzy osbourne"
+                        },
+                        {
+                          "band": "queen",
+                          "bass": "john deacon",
+                          "drums": "roger taylor",
+                          "keyboard": "freddy mercury",
+                          "lead guitar": "brian may",
+                          "singer": "freddy mercury"
+                        },
+                        {
+                          "band": "led zeppelin",
+                          "bass": "john paul johns",
+                          "drums": "bonzo bonham",
+                          "keyboard": "john paul johns",
+                          "lead guitar": "jimmy page",
+                          "singer": "robert plant"
+                        },
+                        {
+                          "band": "deep purple",
+                          "bass": "roger glover",
+                          "drums": "ian paice",
+                          "keyboard": "jon lord",
+                          "lead guitar": "ritchie blackmore",
+                          "singer": "ian gillan"
+                        }
+                      ],
+                      "header": [
+                        "band",
+                        "singer",
+                        "rhythm guitar",
+                        "lead guitar",
+                        "bass",
+                        "drums",
+                        "keyboard"
+                      ]
+                    },
+                    "width": "auto"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "table3829867146"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": "stretched"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stretched"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "auto"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "shape",
+                "structure": {
+                  "body": {
+                    "name": "array",
+                    "structure": {}
+                  },
+                  "header": {
+                    "name": "typedArray",
+                    "structure": {
+                      "memberType": {
+                        "name": "string",
+                        "structure": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<Select width={300}>\n    <SelectItem>Option 1</SelectItem>\n    <SelectItem>Option 2</SelectItem>\n    <SelectItem>Option 3</SelectItem>\n    <SelectItem>Option 4</SelectItem>\n    <SelectItem>Option 5</SelectItem>\n    <SelectItem>Option 5 Option 5 Option 5 Option 5 Option 5</SelectItem>\n</Select>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/Select/Select",
+            "documentation": {
+              "path": "src/Select/Select/Select.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Select/Select/Select.js"
+            },
+            "presets": [
+              {
+                "path": "src/Select/Select/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "Select",
+          "presets": [
+            {
+              "elements": {
+                "select548853352": {
+                  "name": "Select",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "selectitem2379554241"
+                      },
+                      {
+                        "uxpinPresetElementId": "selectitem230242005"
+                      },
+                      {
+                        "uxpinPresetElementId": "selectitem1081055471"
+                      }
+                    ]
+                  }
+                },
+                "selectitem1081055471": {
+                  "props": {
+                    "children": "Option2"
+                  }
+                },
+                "selectitem230242005": {
+                  "name": "SelectItem",
+                  "props": {
+                    "children": "Option2"
+                  }
+                },
+                "selectitem2379554241": {
+                  "name": "SelectItem",
+                  "props": {
+                    "children": "Option1"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "select548853352"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "stretched"
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stretched"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "auto"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "defaultOpen",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "Select..."
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "placeholder",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSelect",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onRestart",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<SelectItem>Option 1</SelectItem>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/Select/SelectItem",
+            "documentation": {
+              "path": "src/Select/SelectItem/SelectItem.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Select/SelectItem/SelectItem.js"
+            },
+            "presets": [
+              {
+                "path": "src/Select/SelectItem/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "SelectItem",
+          "presets": [
+            {
+              "elements": {
+                "selectitem715195549": {
+                  "name": "SelectItem",
+                  "props": {
+                    "children": "Option 1"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "selectitem715195549"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        }
+      ],
+      "name": "General"
+    },
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/AreaChart",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/AreaChart/AreaChart.js"
+            },
+            "presets": [
+              {
+                "path": "src/AreaChart/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "AreaChart",
+          "presets": [
+            {
+              "elements": {
+                "areachart387700426": {
+                  "name": "AreaChart",
+                  "props": {
+                    "animation": "gentle",
+                    "colorRange": [
+                      "teal",
+                      "red"
+                    ],
+                    "curve": "curveLinear",
+                    "data": [
+                      [
+                        {
+                          "x": 0,
+                          "y": 8
+                        },
+                        {
+                          "x": 1,
+                          "y": 5
+                        },
+                        {
+                          "x": 2,
+                          "y": 4
+                        },
+                        {
+                          "x": 3,
+                          "y": 9
+                        },
+                        {
+                          "x": 4,
+                          "y": 1
+                        },
+                        {
+                          "x": 5,
+                          "y": 7
+                        },
+                        {
+                          "x": 6,
+                          "y": 6
+                        },
+                        {
+                          "x": 7,
+                          "y": 3
+                        },
+                        {
+                          "x": 8,
+                          "y": 2
+                        },
+                        {
+                          "x": 9,
+                          "y": 0
+                        }
+                      ],
+                      [
+                        {
+                          "x": 0,
+                          "y": 18
+                        },
+                        {
+                          "x": 1,
+                          "y": 9
+                        },
+                        {
+                          "x": 2,
+                          "y": 2
+                        },
+                        {
+                          "x": 3,
+                          "y": 19
+                        },
+                        {
+                          "x": 4,
+                          "y": 11
+                        },
+                        {
+                          "x": 5,
+                          "y": 17
+                        },
+                        {
+                          "x": 6,
+                          "y": 2
+                        },
+                        {
+                          "x": 7,
+                          "y": 1
+                        },
+                        {
+                          "x": 8,
+                          "y": 9
+                        },
+                        {
+                          "x": 9,
+                          "y": 11
+                        }
+                      ]
+                    ],
+                    "opacity": "0.6",
+                    "startData": [
+                      [
+                        {
+                          "x": 0,
+                          "y": 0
+                        },
+                        {
+                          "x": 1,
+                          "y": 1
+                        },
+                        {
+                          "x": 2,
+                          "y": 2
+                        },
+                        {
+                          "x": 3,
+                          "y": 3
+                        },
+                        {
+                          "x": 4,
+                          "y": 4
+                        },
+                        {
+                          "x": 5,
+                          "y": 0
+                        },
+                        {
+                          "x": 6,
+                          "y": 1
+                        },
+                        {
+                          "x": 7,
+                          "y": 2
+                        },
+                        {
+                          "x": 8,
+                          "y": 3
+                        },
+                        {
+                          "x": 9,
+                          "y": 4
+                        }
+                      ],
+                      [
+                        {
+                          "x": 0,
+                          "y": 0
+                        },
+                        {
+                          "x": 1,
+                          "y": 1
+                        },
+                        {
+                          "x": 2,
+                          "y": 2
+                        },
+                        {
+                          "x": 3,
+                          "y": 3
+                        },
+                        {
+                          "x": 4,
+                          "y": 4
+                        },
+                        {
+                          "x": 5,
+                          "y": 0
+                        },
+                        {
+                          "x": 6,
+                          "y": 1
+                        },
+                        {
+                          "x": 7,
+                          "y": 2
+                        },
+                        {
+                          "x": 8,
+                          "y": 3
+                        },
+                        {
+                          "x": 9,
+                          "y": 4
+                        }
+                      ]
+                    ],
+                    "styles": [
+                      {
+                        "strokeStyle": "dashed"
+                      }
+                    ],
+                    "width": 500
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "areachart387700426"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Width of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Height of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "height",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Sets margin for the chart inside of the container. Format: {\"top\": 0, \"right\": 0, \"bottom\": 0, \"left\": 0 }",
+              "isRequired": false,
+              "name": "margin",
+              "type": {
+                "name": "shape",
+                "structure": {
+                  "bottom": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "left": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "right": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "top": {
+                    "name": "number",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal labels.",
+              "isRequired": false,
+              "name": "xLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical labels.",
+              "isRequired": false,
+              "name": "yLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal grid lines.",
+              "isRequired": false,
+              "name": "horizontalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical grid lines.",
+              "isRequired": false,
+              "name": "verticalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Data Array. Structure: [[{\"x\": 0, \"y\": 1}, {\"x\": 1, \"y\": 3}], [{\"x: 0\", \"y\": 2}, {\"x\": 1, \"y\": 3]].",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Starting point for data set. Used for triggering animation. Same data structure as data property.",
+              "isRequired": false,
+              "name": "startData",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Turns, on/off animation and allows for selection of different types of animations.",
+              "isRequired": false,
+              "name": "animation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noWobble"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "gentle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "wobbly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stiff"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Color to be used on all chart lines, unless colorRange is provided",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Array with colors to be used across all chart lines. If array doesn't specify color for all the chart lines, color property is used.",
+              "isRequired": false,
+              "name": "colorRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "Specifies opacity for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "opacity",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Color of the upper edge of the area. Overrides color property/",
+              "isRequired": false,
+              "name": "strokeColor",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Array of colors of the upper edge of the area. Overrides color property/",
+              "isRequired": false,
+              "name": "strokeColorRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "Specifies width of the line for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "strokeWidth",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "solid"
+              },
+              "description": "Specifies style of the line for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "strokeStyle",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "solid"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dashed"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Select the kind of curve for all the chart lines",
+              "isRequired": false,
+              "name": "curve",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "no curve"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveNatural"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBasis"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBasisClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveLinear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveLinearClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveMonotoneX"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveMonotoneY"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStep"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStepAfter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStepBefore"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRom"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRomOpen"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRomClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBundle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinal"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinalOpen"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinalClosed"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveCatmullRom, curveCatmullRomOpen and curveCatmullRomClosed",
+              "isRequired": false,
+              "name": "curveCatmullRomAlpha",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveBundleBeta",
+              "isRequired": false,
+              "name": "curveBundleBeta",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveCardinal, curveCardinalOpen, curveCardinalClosed",
+              "isRequired": false,
+              "name": "curveCardinalTension",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Object with styles that allows for specifying styles for every line separtely. Accepts: StrokeStyle, StrokeWidth and Opacity. Format: [{\"strokeStyle\": \"solid\"}]",
+              "isRequired": false,
+              "name": "styles",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "object",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Turns on/off crossHair",
+              "isRequired": false,
+              "name": "crossHair",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onNearestXY",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOver",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOut",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesRightClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/BarChart",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/BarChart/BarChart.js"
+            },
+            "presets": [
+              {
+                "path": "src/BarChart/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "BarChart",
+          "presets": [
+            {
+              "elements": {
+                "barchart3858702737": {
+                  "name": "BarChart",
+                  "props": {
+                    "animation": "wobbly",
+                    "crossHair": false,
+                    "data": [
+                      {
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "x": 1,
+                        "y": 5
+                      },
+                      {
+                        "x": 2,
+                        "y": 4
+                      },
+                      {
+                        "x": 3,
+                        "y": 9
+                      },
+                      {
+                        "x": 4,
+                        "y": 1
+                      },
+                      {
+                        "x": 5,
+                        "y": 7
+                      },
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 2
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      }
+                    ],
+                    "height": 300,
+                    "hint": true,
+                    "margin": {
+                      "right": 20,
+                      "top": 20
+                    },
+                    "opacity": "0.3",
+                    "startData": [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 4,
+                        "y": 4
+                      },
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 7
+                      },
+                      {
+                        "x": 8,
+                        "y": 8
+                      },
+                      {
+                        "x": 9,
+                        "y": 9
+                      }
+                    ],
+                    "width": 500
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "barchart3858702737"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Width of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Height of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "height",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Sets margin for the chart inside of the container. Format: {\"top\": 0, \"right\": 0, \"bottom\": 0, \"left\": 0 }",
+              "isRequired": false,
+              "name": "margin",
+              "type": {
+                "name": "shape",
+                "structure": {
+                  "bottom": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "left": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "right": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "top": {
+                    "name": "number",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal labels.",
+              "isRequired": false,
+              "name": "xLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Title for the horizontal label.",
+              "isRequired": false,
+              "name": "xAxisTitle",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical labels.",
+              "isRequired": false,
+              "name": "yLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Title for the vertical label.",
+              "isRequired": false,
+              "name": "yAxisTitle",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal grid lines.",
+              "isRequired": false,
+              "name": "horizontalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical grid lines.",
+              "isRequired": false,
+              "name": "verticalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Data Array. Structure: [[{\"x\": 0, \"y\": 1}, {\"x\": 1, \"y\": 3}], [{\"x: 0\", \"y\": 2}, {\"x\": 1, \"y\": 3]].",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Type of the scale for X axis. Linear allows only for numbers, Ordinal let's you specify x axis as text e.g. \"Q1\"",
+              "isRequired": false,
+              "name": "xScaleType",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "linear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ordinal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Type of the scale for Y axis. Linear allows only for numbers, Ordinal let's you specify x axis as text e.g. \"Q1\"",
+              "isRequired": false,
+              "name": "yScaleType",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "linear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ordinal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Starting point for data set. Used for triggering animation. Same data structure as data property.",
+              "isRequired": false,
+              "name": "startData",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Turns, on/off animation and allows for selection of different types of animations.",
+              "isRequired": false,
+              "name": "animation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noWobble"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "gentle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "wobbly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stiff"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 0.8
+              },
+              "description": "Width of every bar in %. 1.0 means the full width.",
+              "isRequired": false,
+              "name": "barWidth",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Color to be used on all chart lines, unless colorRange is provided",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Array with colors to be used across all chart lines. If array doesn't specify color for all the chart lines, color property is used.",
+              "isRequired": false,
+              "name": "colorRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "Color filling inside of every circle on the chart",
+              "isRequired": false,
+              "name": "fill",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Range of colors to be used as a filling",
+              "isRequired": false,
+              "name": "fillRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "Stroke color",
+              "isRequired": false,
+              "name": "stroke",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Specifies opacity for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "opacity",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Object with styles that allows for specifying styles for every line separtely. Accepts: StrokeStyle, StrokeWidth and Opacity. Format: [{\"strokeStyle\": \"solid\"}]",
+              "isRequired": false,
+              "name": "styles",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "object",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Turns on/off crossHair",
+              "isRequired": false,
+              "name": "crossHair",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "hint",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onNearestXY",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOver",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOut",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesRightClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/LineChart",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/LineChart/LineChart.js"
+            },
+            "presets": [
+              {
+                "path": "src/LineChart/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "LineChart",
+          "presets": [
+            {
+              "elements": {
+                "linechart881115466": {
+                  "name": "LineChart",
+                  "props": {
+                    "animation": "stiff",
+                    "colorRange": [
+                      "teal",
+                      "red"
+                    ],
+                    "curve": "curveLinear",
+                    "data": [
+                      [
+                        {
+                          "x": 0,
+                          "y": 8
+                        },
+                        {
+                          "x": 1,
+                          "y": 5
+                        },
+                        {
+                          "x": 2,
+                          "y": 4
+                        },
+                        {
+                          "x": 3,
+                          "y": 9
+                        },
+                        {
+                          "x": 4,
+                          "y": 1
+                        },
+                        {
+                          "x": 5,
+                          "y": 7
+                        },
+                        {
+                          "x": 6,
+                          "y": 6
+                        },
+                        {
+                          "x": 7,
+                          "y": 3
+                        },
+                        {
+                          "x": 8,
+                          "y": 2
+                        },
+                        {
+                          "x": 9,
+                          "y": 0
+                        }
+                      ],
+                      [
+                        {
+                          "x": 0,
+                          "y": 18
+                        },
+                        {
+                          "x": 1,
+                          "y": 9
+                        },
+                        {
+                          "x": 2,
+                          "y": 2
+                        },
+                        {
+                          "x": 3,
+                          "y": 19
+                        },
+                        {
+                          "x": 4,
+                          "y": 11
+                        },
+                        {
+                          "x": 5,
+                          "y": 17
+                        },
+                        {
+                          "x": 6,
+                          "y": 2
+                        },
+                        {
+                          "x": 7,
+                          "y": 1
+                        },
+                        {
+                          "x": 8,
+                          "y": 9
+                        },
+                        {
+                          "x": 9,
+                          "y": 11
+                        }
+                      ]
+                    ],
+                    "opacity": "0.6",
+                    "startData": [
+                      [
+                        {
+                          "x": 0,
+                          "y": 0
+                        },
+                        {
+                          "x": 1,
+                          "y": 1
+                        },
+                        {
+                          "x": 2,
+                          "y": 2
+                        },
+                        {
+                          "x": 3,
+                          "y": 3
+                        },
+                        {
+                          "x": 4,
+                          "y": 4
+                        },
+                        {
+                          "x": 5,
+                          "y": 0
+                        },
+                        {
+                          "x": 6,
+                          "y": 1
+                        },
+                        {
+                          "x": 7,
+                          "y": 2
+                        },
+                        {
+                          "x": 8,
+                          "y": 3
+                        },
+                        {
+                          "x": 9,
+                          "y": 4
+                        }
+                      ],
+                      [
+                        {
+                          "x": 0,
+                          "y": 0
+                        },
+                        {
+                          "x": 1,
+                          "y": 1
+                        },
+                        {
+                          "x": 2,
+                          "y": 2
+                        },
+                        {
+                          "x": 3,
+                          "y": 3
+                        },
+                        {
+                          "x": 4,
+                          "y": 4
+                        },
+                        {
+                          "x": 5,
+                          "y": 0
+                        },
+                        {
+                          "x": 6,
+                          "y": 1
+                        },
+                        {
+                          "x": 7,
+                          "y": 2
+                        },
+                        {
+                          "x": 8,
+                          "y": 3
+                        },
+                        {
+                          "x": 9,
+                          "y": 4
+                        }
+                      ]
+                    ],
+                    "styles": [
+                      {
+                        "strokeStyle": "dashed"
+                      }
+                    ],
+                    "width": 500
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "linechart881115466"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Width of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Height of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "height",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Sets margin for the chart inside of the container. Format: {\"top\": 0, \"right\": 0, \"bottom\": 0, \"left\": 0 }",
+              "isRequired": false,
+              "name": "margin",
+              "type": {
+                "name": "shape",
+                "structure": {
+                  "bottom": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "left": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "right": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "top": {
+                    "name": "number",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal labels.",
+              "isRequired": false,
+              "name": "xLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical labels.",
+              "isRequired": false,
+              "name": "yLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal grid lines.",
+              "isRequired": false,
+              "name": "horizontalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical grid lines.",
+              "isRequired": false,
+              "name": "verticalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Data Array. Structure: [[{\"x\": 0, \"y\": 1}, {\"x\": 1, \"y\": 3}], [{\"x: 0\", \"y\": 2}, {\"x\": 1, \"y\": 3]].",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Starting point for data set. Used for triggering animation. Same data structure as data property.",
+              "isRequired": false,
+              "name": "startData",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Turns, on/off animation and allows for selection of different types of animations.",
+              "isRequired": false,
+              "name": "animation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noWobble"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "gentle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "wobbly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stiff"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Color to be used on all chart lines, unless colorRange is provided",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Array with colors to be used across all chart lines. If array doesn't specify color for all the chart lines, color property is used.",
+              "isRequired": false,
+              "name": "colorRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "Specifies opacity for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "opacity",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "Specifies width of the line for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "strokeWidth",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "solid"
+              },
+              "description": "Specifies style of the line for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "strokeStyle",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "solid"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dashed"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Select the kind of curve for all the chart lines",
+              "isRequired": false,
+              "name": "curve",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "no curve"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveNatural"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBasis"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBasisClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveLinear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveLinearClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveMonotoneX"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveMonotoneY"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStep"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStepAfter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStepBefore"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRom"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRomOpen"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRomClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBundle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinal"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinalOpen"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinalClosed"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveCatmullRom, curveCatmullRomOpen and curveCatmullRomClosed",
+              "isRequired": false,
+              "name": "curveCatmullRomAlpha",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveBundleBeta",
+              "isRequired": false,
+              "name": "curveBundleBeta",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveCardinal, curveCardinalOpen, curveCardinalClosed",
+              "isRequired": false,
+              "name": "curveCardinalTension",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Object with styles that allows for specifying styles for every line separtely. Accepts: StrokeStyle, StrokeWidth and Opacity. Format: [{\"strokeStyle\": \"solid\"}]",
+              "isRequired": false,
+              "name": "styles",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "object",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Turns on/off crossHair",
+              "isRequired": false,
+              "name": "crossHair",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onNearestXY",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOver",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOut",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesRightClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/LineMarkChart",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/LineMarkChart/LineMarkChart.js"
+            },
+            "presets": [
+              {
+                "path": "src/LineMarkChart/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "LineMarkChart",
+          "presets": [
+            {
+              "elements": {
+                "linemarkchart606506464": {
+                  "name": "LineMarkChart",
+                  "props": {
+                    "animation": "gentle",
+                    "data": [
+                      {
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "x": 1,
+                        "y": 5
+                      },
+                      {
+                        "x": 2,
+                        "y": 4
+                      },
+                      {
+                        "x": 3,
+                        "y": 9
+                      },
+                      {
+                        "x": 4,
+                        "y": 1
+                      },
+                      {
+                        "x": 5,
+                        "y": 7
+                      },
+                      {
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 8,
+                        "y": 2
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      }
+                    ],
+                    "height": 300,
+                    "opacity": "0.6",
+                    "startData": [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 3,
+                        "y": 0
+                      },
+                      {
+                        "x": 4,
+                        "y": 0
+                      },
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 7,
+                        "y": 0
+                      },
+                      {
+                        "x": 8,
+                        "y": 0
+                      },
+                      {
+                        "x": 9,
+                        "y": 0
+                      }
+                    ],
+                    "width": 500
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "linemarkchart606506464"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Width of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Height of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "height",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Sets margin for the chart inside of the container. Format: {\"top\": 0, \"right\": 0, \"bottom\": 0, \"left\": 0 }",
+              "isRequired": false,
+              "name": "margin",
+              "type": {
+                "name": "shape",
+                "structure": {
+                  "bottom": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "left": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "right": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "top": {
+                    "name": "number",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal labels.",
+              "isRequired": false,
+              "name": "xLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Horizontal label (x axis)",
+              "isRequired": false,
+              "name": "xAxisTitle",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical labels.",
+              "isRequired": false,
+              "name": "yLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Vertical label (y axis)",
+              "isRequired": false,
+              "name": "yAxisTitle",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal grid lines.",
+              "isRequired": false,
+              "name": "horizontalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical grid lines.",
+              "isRequired": false,
+              "name": "verticalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Data Array. Structure: [[{\"x\": 0, \"y\": 1}, {\"x\": 1, \"y\": 3}], [{\"x: 0\", \"y\": 2}, {\"x\": 1, \"y\": 3]].",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Type of the scale for X axis. Linear allows only for numbers, Ordinal let's you specify x axis as text e.g. \"Q1\"",
+              "isRequired": false,
+              "name": "xScaleType",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "linear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ordinal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Type of the scale for Y axis. Linear allows only for numbers, Ordinal let's you specify x axis as text e.g. \"Q1\"",
+              "isRequired": false,
+              "name": "yScaleType",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "linear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ordinal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Starting point for data set. Used for triggering animation. Same data structure as data property.",
+              "isRequired": false,
+              "name": "startData",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Turns, on/off animation and allows for selection of different types of animations.",
+              "isRequired": false,
+              "name": "animation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noWobble"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "gentle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "wobbly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stiff"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Color to be used on all chart lines, unless colorRange is provided",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Array with colors to be used across all chart lines. If array doesn't specify color for all the chart lines, color property is used.",
+              "isRequired": false,
+              "name": "colorRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "Color filling inside of every circle on the chart",
+              "isRequired": false,
+              "name": "fill",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Range of colors to be used as a filling",
+              "isRequired": false,
+              "name": "fillRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 5
+              },
+              "description": "Size of marks on the chart",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "0.6"
+              },
+              "description": "Specifies opacity for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "opacity",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 3
+              },
+              "description": "Specifies width of the line for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "strokeWidth",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Specifies style of the line for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "strokeStyle",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "solid"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dashed"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "curveNatural"
+              },
+              "description": "Select the kind of curve for all the chart lines",
+              "isRequired": false,
+              "name": "curve",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "no curve"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveNatural"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBasis"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBasisClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveLinear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveLinearClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveMonotoneX"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveMonotoneY"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStep"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStepAfter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveStepBefore"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRom"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRomOpen"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCatmullRomClosed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveBundle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinal"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinalOpen"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "curveCardinalClosed"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveCatmullRom, curveCatmullRomOpen and curveCatmullRomClosed",
+              "isRequired": false,
+              "name": "curveCatmullRomAlpha",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveBundleBeta",
+              "isRequired": false,
+              "name": "curveBundleBeta",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Additional param to modify the curvature of curveCardinal, curveCardinalOpen, curveCardinalClosed",
+              "isRequired": false,
+              "name": "curveCardinalTension",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Object with styles that allows for specifying styles for every line separtely. Accepts: StrokeStyle, StrokeWidth and Opacity. Format: [{\"strokeStyle\": \"solid\"}]",
+              "isRequired": false,
+              "name": "styles",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "object",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Turns on/off crossHair",
+              "isRequired": false,
+              "name": "crossHair",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "hint",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onNearestXY",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOver",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOut",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesRightClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/MarkChart",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/MarkChart/MarkChart.js"
+            },
+            "presets": [
+              {
+                "path": "src/MarkChart/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "MarkChart",
+          "presets": [
+            {
+              "elements": {
+                "markchart1234650178": {
+                  "name": "MarkChart",
+                  "props": {
+                    "animation": "wobbly",
+                    "crossHair": false,
+                    "data": [
+                      {
+                        "size": 8,
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "size": 5,
+                        "x": 1,
+                        "y": 5
+                      },
+                      {
+                        "size": 4,
+                        "x": 2,
+                        "y": 4
+                      },
+                      {
+                        "size": 9,
+                        "x": 3,
+                        "y": 9
+                      },
+                      {
+                        "size": 1,
+                        "x": 4,
+                        "y": 1
+                      },
+                      {
+                        "size": 7,
+                        "x": 5,
+                        "y": 7
+                      },
+                      {
+                        "size": 6,
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "size": 3,
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "size": 2,
+                        "x": 8,
+                        "y": 2
+                      },
+                      {
+                        "size": 1,
+                        "x": 9,
+                        "y": 0
+                      }
+                    ],
+                    "height": 300,
+                    "hint": true,
+                    "margin": {
+                      "right": 20,
+                      "top": 20
+                    },
+                    "opacity": "0.3",
+                    "startData": [
+                      {
+                        "size": 1,
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "size": 1,
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "size": 1,
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "size": 1,
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "size": 1,
+                        "x": 4,
+                        "y": 4
+                      },
+                      {
+                        "size": 1,
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "size": 1,
+                        "x": 6,
+                        "y": 6
+                      },
+                      {
+                        "size": 1,
+                        "x": 7,
+                        "y": 7
+                      },
+                      {
+                        "size": 1,
+                        "x": 8,
+                        "y": 8
+                      },
+                      {
+                        "size": 1,
+                        "x": 9,
+                        "y": 9
+                      }
+                    ],
+                    "strokeWidth": 12,
+                    "width": 500
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "markchart1234650178"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Width of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Height of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "height",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Sets margin for the chart inside of the container. Format: {\"top\": 0, \"right\": 0, \"bottom\": 0, \"left\": 0 }",
+              "isRequired": false,
+              "name": "margin",
+              "type": {
+                "name": "shape",
+                "structure": {
+                  "bottom": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "left": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "right": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "top": {
+                    "name": "number",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal labels.",
+              "isRequired": false,
+              "name": "xLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Title for the horizontal label.",
+              "isRequired": false,
+              "name": "xAxisTitle",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical labels.",
+              "isRequired": false,
+              "name": "yLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Title for the vertical label.",
+              "isRequired": false,
+              "name": "yAxisTitle",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off horizontal grid lines.",
+              "isRequired": false,
+              "name": "horizontalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": true
+              },
+              "description": "Turns on/off vertical grid lines.",
+              "isRequired": false,
+              "name": "verticalGridLines",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Data Array. Structure: [[{\"x\": 0, \"y\": 1}, {\"x\": 1, \"y\": 3}], [{\"x: 0\", \"y\": 2}, {\"x\": 1, \"y\": 3]].",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Type of the scale for X axis. Linear allows only for numbers, Ordinal let's you specify x axis as text e.g. \"Q1\"",
+              "isRequired": false,
+              "name": "xScaleType",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "linear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ordinal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Type of the scale for Y axis. Linear allows only for numbers, Ordinal let's you specify x axis as text e.g. \"Q1\"",
+              "isRequired": false,
+              "name": "yScaleType",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "linear"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ordinal"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Starting point for data set. Used for triggering animation. Same data structure as data property.",
+              "isRequired": false,
+              "name": "startData",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Turns, on/off animation and allows for selection of different types of animations.",
+              "isRequired": false,
+              "name": "animation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noWobble"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "gentle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "wobbly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stiff"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Color to be used on all chart lines, unless colorRange is provided",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Array with colors to be used across all chart lines. If array doesn't specify color for all the chart lines, color property is used.",
+              "isRequired": false,
+              "name": "colorRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "Color filling inside of every circle on the chart",
+              "isRequired": false,
+              "name": "fill",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Range of colors to be used as a filling",
+              "isRequired": false,
+              "name": "fillRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "0.6"
+              },
+              "description": "Specifies opacity for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "opacity",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Specifies width of the line for all the chart lines, unless styles array is provided",
+              "isRequired": false,
+              "name": "strokeWidth",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Object with styles that allows for specifying styles for every line separtely. Accepts: StrokeStyle, StrokeWidth and Opacity. Format: [{\"strokeStyle\": \"solid\"}]",
+              "isRequired": false,
+              "name": "styles",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "object",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Turns on/off crossHair",
+              "isRequired": false,
+              "name": "crossHair",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "",
+              "isRequired": false,
+              "name": "hint",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onNearestXY",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOver",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOut",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesRightClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/PieChart",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/PieChart/PieChart.js"
+            },
+            "presets": [
+              {
+                "path": "src/PieChart/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "PieChart",
+          "presets": [
+            {
+              "elements": {
+                "piechart1234650178": {
+                  "name": "PieChart",
+                  "props": {
+                    "animation": "gentle",
+                    "data": [
+                      {
+                        "label": "apples",
+                        "theta": 1
+                      },
+                      {
+                        "label": "oranges",
+                        "theta": 4
+                      },
+                      {
+                        "label": "cherries",
+                        "theta": 6
+                      }
+                    ],
+                    "height": 300,
+                    "hint": true,
+                    "innerRadius": 120,
+                    "padAngle": "0.02",
+                    "radius": 140,
+                    "startData": [
+                      {
+                        "label": "apples",
+                        "theta": 0
+                      },
+                      {
+                        "label": "oranges",
+                        "theta": 0
+                      },
+                      {
+                        "label": "cherries",
+                        "theta": 0
+                      }
+                    ],
+                    "width": 300
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "piechart1234650178"
+            }
+          ],
+          "properties": [
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Width of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "width",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": 300
+              },
+              "description": "Height of the Chart in px. Accepts only numbers.",
+              "isRequired": false,
+              "name": "height",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Data Array. Structure:  [{ \"theta\": 1, \"label\": \"apples\" }, {\"theta\": 4, \"label\": \"oranges\"}, {\"theta\": 6, \"label\": \"cherries\"}]",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Starting point for data set. Used for triggering animation. Same data structure as data property. Place \"0\" in theta to animate.",
+              "isRequired": false,
+              "name": "startData",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Turns, on/off animation and allows for selection of different types of animations.",
+              "isRequired": false,
+              "name": "animation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "noWobble"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "gentle"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "wobbly"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "stiff"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "Color to be used on all chart lines, unless colorRange is provided",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Array with colors to be used across all chart lines. If array doesn't specify color for all the chart lines, color property is used.",
+              "isRequired": false,
+              "name": "colorRange",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "1"
+              },
+              "description": "Color filling inside of every circle on the chart.",
+              "isRequired": false,
+              "name": "opacity",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Adds padding between series in the chart. 0 means no padding. 0.005 provides 1px relief.",
+              "isRequired": false,
+              "name": "padAngle",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Shows labels one the chart. Set up labels in the data object. Example: {\"theta\": 1, \"label\": \"Apples\"}",
+              "isRequired": false,
+              "name": "showLabels",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": "1.1"
+              },
+              "description": "Specifies the distance between edge of the chart and labels. 1 places labels on the edge of the chart.",
+              "isRequired": false,
+              "name": "labelsRadiusMultiplier",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Styles object that let's you style labels on the chart",
+              "isRequired": false,
+              "name": "labelsStyle",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Specifies the radius of the chart. Value that equals 50% of the height of the entire component equals 100% of the size. Required to create donut chart.",
+              "isRequired": false,
+              "name": "radius",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "In combination with radius property, innerRadius enables ability to create a donut chart. The higher the value the bigger tha hole in the donut.",
+              "isRequired": false,
+              "name": "innerRadius",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "defaultValue": {
+                "value": false
+              },
+              "description": "Shows hint on click into every part of the pie chart",
+              "isRequired": false,
+              "name": "hint",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onNearestXY",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOver",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesMouseOut",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onSeriesRightClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            }
+          ]
+        }
+      ],
+      "name": "Charts"
+    }
+  ],
+  "name": ""
+}

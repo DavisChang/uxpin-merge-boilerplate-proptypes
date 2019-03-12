@@ -12,6 +12,12 @@ module.exports = {
         ]
       },
       {
+        name: 'Test',
+        include: [
+          'src/components/Button/Merge/ButtonM/ButtonM.js'
+        ]
+      },
+      {
         name: 'Charts',
         include: [
           'src/LineChart/LineChart.js',

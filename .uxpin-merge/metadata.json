@@ -22,7 +22,7 @@
             },
             "presets": [
               {
-                "path": "src/Button/presets/0-default.json"
+                "path": "src/Button/presets/0-default.jsx"
               }
             ]
           },
@@ -30,21 +30,20 @@
           "presets": [
             {
               "elements": {
-                "button4038267449": {
+                "button1": {
                   "name": "Button",
                   "props": {
                     "children": "Merge!",
-                    "icon": "<Icon size=\"s\" icon=\"TickerSvg\" />",
-                    "isDisabled": true,
+                    "icon": "<Icon icon='TickerSvg' size='s' />",
                     "mode": "filled",
-                    "size": "m",
+                    "size": "s",
                     "stretched": true,
                     "type": "error"
                   }
                 }
               },
               "name": "default",
-              "rootId": "button4038267449"
+              "rootId": "button1"
             }
           ],
           "properties": [
@@ -307,7 +306,7 @@
             },
             "presets": [
               {
-                "path": "src/Icon/presets/0-default.json"
+                "path": "src/Icon/presets/0-default.jsx"
               }
             ]
           },
@@ -315,7 +314,7 @@
           "presets": [
             {
               "elements": {
-                "icon282275244": {
+                "icon1": {
                   "name": "Icon",
                   "props": {
                     "icon": "PinMapSolidSvg",
@@ -324,7 +323,7 @@
                 }
               },
               "name": "default",
-              "rootId": "icon282275244"
+              "rootId": "icon1"
             }
           ],
           "properties": [
@@ -1805,7 +1804,7 @@
             },
             "presets": [
               {
-                "path": "src/Table/presets/0-default.json"
+                "path": "src/Table/presets/0-default.jsx"
               }
             ]
           },
@@ -1813,7 +1812,7 @@
           "presets": [
             {
               "elements": {
-                "table3829867146": {
+                "table1": {
                   "name": "Table",
                   "props": {
                     "data": {
@@ -1876,12 +1875,12 @@
                         "keyboard"
                       ]
                     },
-                    "width": "auto"
+                    "width": "stretched"
                   }
                 }
               },
               "name": "default",
-              "rootId": "table3829867146"
+              "rootId": "table1"
             }
           ],
           "properties": [
@@ -1957,7 +1956,7 @@
             },
             "presets": [
               {
-                "path": "src/Select/Select/presets/0-default.json"
+                "path": "src/Select/Select/presets/0-default.jsx"
               }
             ]
           },
@@ -1965,42 +1964,43 @@
           "presets": [
             {
               "elements": {
-                "select548853352": {
+                "select1": {
                   "name": "Select",
                   "props": {
                     "children": [
                       {
-                        "uxpinPresetElementId": "selectitem2379554241"
+                        "uxpinPresetElementId": "select2"
                       },
                       {
-                        "uxpinPresetElementId": "selectitem230242005"
+                        "uxpinPresetElementId": "select3"
                       },
                       {
-                        "uxpinPresetElementId": "selectitem1081055471"
+                        "uxpinPresetElementId": "select4"
                       }
                     ]
                   }
                 },
-                "selectitem1081055471": {
-                  "props": {
-                    "children": "Option2"
-                  }
-                },
-                "selectitem230242005": {
-                  "name": "SelectItem",
-                  "props": {
-                    "children": "Option2"
-                  }
-                },
-                "selectitem2379554241": {
+                "select2": {
                   "name": "SelectItem",
                   "props": {
                     "children": "Option1"
                   }
+                },
+                "select3": {
+                  "name": "SelectItem",
+                  "props": {
+                    "children": "Option2"
+                  }
+                },
+                "select4": {
+                  "name": "SelectItem",
+                  "props": {
+                    "children": "Option3"
+                  }
                 }
               },
               "name": "default",
-              "rootId": "select548853352"
+              "rootId": "select1"
             }
           ],
           "properties": [
@@ -2104,7 +2104,7 @@
             },
             "presets": [
               {
-                "path": "src/Select/SelectItem/presets/0-default.json"
+                "path": "src/Select/SelectItem/presets/0-default.jsx"
               }
             ]
           },
@@ -2112,15 +2112,15 @@
           "presets": [
             {
               "elements": {
-                "selectitem715195549": {
+                "select2": {
                   "name": "SelectItem",
                   "props": {
-                    "children": "Option 1"
+                    "children": "Option1"
                   }
                 }
               },
               "name": "default",
-              "rootId": "selectitem715195549"
+              "rootId": "select2"
             }
           ],
           "properties": [
@@ -2145,6 +2145,68 @@
             "examples": []
           },
           "info": {
+            "dirPath": "src/components/Button/Merge/ButtonM",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Button/Merge/ButtonM/ButtonM.js"
+            },
+            "presets": []
+          },
+          "name": "ButtonM",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "name": "Test"
+    },
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
             "dirPath": "src/AreaChart",
             "implementation": {
               "framework": "reactjs",
@@ -2153,7 +2215,7 @@
             },
             "presets": [
               {
-                "path": "src/AreaChart/presets/0-default.json"
+                "path": "src/AreaChart/presets/0-default.jsx"
               }
             ]
           },
@@ -2161,7 +2223,7 @@
           "presets": [
             {
               "elements": {
-                "areachart387700426": {
+                "areaChart1": {
                   "name": "AreaChart",
                   "props": {
                     "animation": "gentle",
@@ -2353,7 +2415,7 @@
                 }
               },
               "name": "default",
-              "rootId": "areachart387700426"
+              "rootId": "areaChart1"
             }
           ],
           "properties": [
@@ -2836,7 +2898,7 @@
             },
             "presets": [
               {
-                "path": "src/BarChart/presets/0-default.json"
+                "path": "src/BarChart/presets/0-default.jsx"
               }
             ]
           },
@@ -2844,11 +2906,10 @@
           "presets": [
             {
               "elements": {
-                "barchart3858702737": {
+                "barChart1": {
                   "name": "BarChart",
                   "props": {
                     "animation": "wobbly",
-                    "crossHair": false,
                     "data": [
                       {
                         "x": 0,
@@ -2893,10 +2954,6 @@
                     ],
                     "height": 300,
                     "hint": true,
-                    "margin": {
-                      "right": 20,
-                      "top": 20
-                    },
                     "opacity": "0.3",
                     "startData": [
                       {
@@ -2945,7 +3002,7 @@
                 }
               },
               "name": "default",
-              "rootId": "barchart3858702737"
+              "rootId": "barChart1"
             }
           ],
           "properties": [
@@ -3341,7 +3398,7 @@
             },
             "presets": [
               {
-                "path": "src/LineChart/presets/0-default.json"
+                "path": "src/LineChart/presets/0-default.jsx"
               }
             ]
           },
@@ -3349,7 +3406,7 @@
           "presets": [
             {
               "elements": {
-                "linechart881115466": {
+                "lineChart1": {
                   "name": "LineChart",
                   "props": {
                     "animation": "stiff",
@@ -3541,7 +3598,7 @@
                 }
               },
               "name": "default",
-              "rootId": "linechart881115466"
+              "rootId": "lineChart1"
             }
           ],
           "properties": [
@@ -4001,7 +4058,7 @@
             },
             "presets": [
               {
-                "path": "src/LineMarkChart/presets/0-default.json"
+                "path": "src/LineMarkChart/presets/0-default.jsx"
               }
             ]
           },
@@ -4009,7 +4066,7 @@
           "presets": [
             {
               "elements": {
-                "linemarkchart606506464": {
+                "lineMarkChart1": {
                   "name": "LineMarkChart",
                   "props": {
                     "animation": "gentle",
@@ -4104,7 +4161,7 @@
                 }
               },
               "name": "default",
-              "rootId": "linemarkchart606506464"
+              "rootId": "lineMarkChart1"
             }
           ],
           "properties": [
@@ -4680,7 +4737,7 @@
             },
             "presets": [
               {
-                "path": "src/MarkChart/presets/0-default.json"
+                "path": "src/MarkChart/presets/0-default.jsx"
               }
             ]
           },
@@ -4688,11 +4745,10 @@
           "presets": [
             {
               "elements": {
-                "markchart1234650178": {
+                "markChart1": {
                   "name": "MarkChart",
                   "props": {
                     "animation": "wobbly",
-                    "crossHair": false,
                     "data": [
                       {
                         "size": 8,
@@ -4810,7 +4866,7 @@
                 }
               },
               "name": "default",
-              "rootId": "markchart1234650178"
+              "rootId": "markChart1"
             }
           ],
           "properties": [
@@ -5197,7 +5253,7 @@
             },
             "presets": [
               {
-                "path": "src/PieChart/presets/0-default.json"
+                "path": "src/PieChart/presets/0-default.jsx"
               }
             ]
           },
@@ -5205,7 +5261,7 @@
           "presets": [
             {
               "elements": {
-                "piechart1234650178": {
+                "pieChart1": {
                   "name": "PieChart",
                   "props": {
                     "animation": "gentle",
@@ -5247,7 +5303,7 @@
                 }
               },
               "name": "default",
-              "rootId": "piechart1234650178"
+              "rootId": "pieChart1"
             }
           ],
           "properties": [
@@ -5484,5 +5540,9 @@
       "name": "Charts"
     }
   ],
-  "name": ""
+  "name": "UXPin Merge Boilerplate",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "041539a852b502c2e4ec77023a78528657ec8800"
+  }
 }

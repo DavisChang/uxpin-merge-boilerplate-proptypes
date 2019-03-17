@@ -2145,6 +2145,59 @@
             "examples": []
           },
           "info": {
+            "dirPath": "src/components/PaymentIcon",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/PaymentIcon/PaymentIcon.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/PaymentIcon/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "PaymentIcon",
+          "presets": [
+            {
+              "elements": {
+                "undefined": {
+                  "name": "PaymentIcon",
+                  "props": {
+                    "icon": "Visa",
+                    "name": "Visa"
+                  }
+                }
+              },
+              "name": "default"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "name",
+              "type": {
+                "name": "custom",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "custom",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
             "dirPath": "src/components/Button/Merge/ButtonM",
             "implementation": {
               "framework": "reactjs",
@@ -5543,6 +5596,6 @@
   "name": "UXPin Merge Boilerplate",
   "vcs": {
     "branchName": "master",
-    "commitHash": "041539a852b502c2e4ec77023a78528657ec8800"
+    "commitHash": "e79b17d27eec256fcea5bca04cd701d7442d05c3"
   }
 }

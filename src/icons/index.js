@@ -227,8 +227,20 @@ import VisibilityOutlineHiddenSvg from './visibility-outline-hidden.svg';
 import VisibilityOutlineVisibleSvg from './visibility-outline-visible.svg';
 import VisibilitySolidHiddenSvg from './visibility-solid-hidden.svg';
 import VisibilitySolidVisibleSvg from './visibility-solid-visible.svg';
+import LogoVisaSvg from './logo_visa.svg';
+import LogoMastercardSvg from './logo_mastercard.svg';
+import LogoAmexSvg from './logo_amex.svg';
+import LogoAlipaySvg from './logo_alipay.svg';
+import LogoWechatSvg from './logo_wechat.svg';
+import LogoPaypalSvg from './logo_paypal.svg';
 
 export {
+  LogoVisaSvg,
+  LogoMastercardSvg,
+  LogoAmexSvg,
+  LogoAlipaySvg,
+  LogoWechatSvg,
+  LogoPaypalSvg,
   ActionAddToFavoritesSvg,
   ActionArchiveSvg,
   ActionArrangeLeftSvg,

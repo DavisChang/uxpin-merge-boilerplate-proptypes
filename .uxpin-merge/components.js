@@ -5,6 +5,7 @@ import Icon from '../src/Icon/Icon';
 import Table from '../src/Table/Table';
 import Select from '../src/Select/Select/Select';
 import SelectItem from '../src/Select/SelectItem/SelectItem';
+import NewComponent from '../src/components/NewComponent/NewComponent';
 import PaymentIcon from '../src/components/PaymentIcon/PaymentIcon';
 import ButtonM from '../src/components/Button/Merge/ButtonM/ButtonM';
 import AreaChart from '../src/AreaChart/AreaChart';
@@ -20,6 +21,7 @@ export {
   Table,
   Select,
   SelectItem,
+  NewComponent,
   PaymentIcon,
   ButtonM,
   AreaChart,

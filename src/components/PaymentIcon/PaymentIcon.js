@@ -35,8 +35,7 @@ const PaymentIcon = (props) => (
     <div className={iconDiv}>
       {
         React.createElement(Icons[mapping[props.icon]], {
-          marginRight: '10px',
-          height: '22px',
+          className: 'normal',
         })
       }
     </div>

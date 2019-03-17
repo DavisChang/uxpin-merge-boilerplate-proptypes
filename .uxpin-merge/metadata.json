@@ -2145,6 +2145,98 @@
             "examples": []
           },
           "info": {
+            "dirPath": "src/components/NewComponent",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/NewComponent/NewComponent.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/NewComponent/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "NewComponent",
+          "presets": [
+            {
+              "elements": {
+                "undefined": {
+                  "name": "NewComponent",
+                  "props": {
+                    "icon": "Paypal",
+                    "name": "Paypal"
+                  }
+                }
+              },
+              "name": "default"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "name",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "Visa"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "Mastercard"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "Amex"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "Paypal"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "Alipay"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "Wechat"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
             "dirPath": "src/components/PaymentIcon",
             "implementation": {
               "framework": "reactjs",
@@ -5596,6 +5688,6 @@
   "name": "UXPin Merge Boilerplate",
   "vcs": {
     "branchName": "master",
-    "commitHash": "e79b17d27eec256fcea5bca04cd701d7442d05c3"
+    "commitHash": "284d15fb3dcf6688e6c132a8edd8e4a7e217c5c3"
   }
 }

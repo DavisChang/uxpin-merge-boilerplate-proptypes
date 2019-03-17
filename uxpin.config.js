@@ -15,7 +15,8 @@ module.exports = {
         name: 'Test',
         include: [
           'src/components/Button/Merge/ButtonM/ButtonM.js',
-          'src/components/PaymentIcon/PaymentIcon.js'
+          'src/components/PaymentIcon/PaymentIcon.js',
+          'src/components/NewComponent/NewComponent.js'
         ]
       },
       {

@@ -12,6 +12,11 @@ const PaymentIconStyles = styled('div')`
   padding: 12px 10px 10px 20px;
   color: #697585;
   cursor: pointer;
+
+  .normal {
+    height: 22px;
+    margin-right: 10px;
+  }
 `;
 
 export default PaymentIconStyles;
